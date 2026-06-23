@@ -21,14 +21,14 @@ Python, Apache Airflow, MySQL
 ## SetUp
 1. Clona la repository
 2. Crea un file .env con le seguenti variabili:
-    *OpenWeather*
+    *OpenWeather*  
     OPEN_WEATHER_API = your_openweather_api
 
-    *MySQL*
-    MYSQL_HOST = your_mysql_host
-    MYSQL_USER = your_mysql_user
-    MYSQL_PSW = your_mysql_password
-    MYSQL_DATABASE = your_db_name
+    *MySQL*  
+    MYSQL_HOST = your_mysql_host  
+    MYSQL_USER = your_mysql_user  
+    MYSQL_PSW = your_mysql_password  
+    MYSQL_DATABASE = your_db_name  
 
 3. Crea uno script .sql (anche direttamente su MySQL) contenente questi comandi:
     '''
