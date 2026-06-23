@@ -21,7 +21,7 @@ mysql_conn_params = {
 
 def connessione_estrazione(ti):
     
-    CITY = "Milano"
+    CITY = "Milano"    # la città può essere modificata a proprio piacimento
     API_URL = "https://api.openweathermap.org/data/2.5/weather"
     params = {"q": CITY, "appid": API_KEY}
 
