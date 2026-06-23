@@ -12,15 +12,15 @@ Lo storage avviene in un database MySQL in locale.
 Python, Apache Airflow, MySQL
 
 ## Struttura
-├── dags/
-│   ├── dag_meteo.py       # DAG Airflow
-│   └── meteo_fun.py       # funzioni di estrazione e trasformazione
-├── .gitignore
-└── README.md
+├── dags/  
+│   ├── dag_meteo.py       # DAG Airflow  
+│   └── meteo_fun.py       # funzioni di estrazione e trasformazione  
+├── .gitignore  
+└── README.md  
 
 ## SetUp
 1. Clona la repository
-2. Crea un file .env con le seguenti variabili:
+2. Crea un file .env con le seguenti variabili:  
     *OpenWeather*  
     OPEN_WEATHER_API = your_openweather_api
 
