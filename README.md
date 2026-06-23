@@ -33,7 +33,7 @@ Python, Apache Airflow, MySQL
 
 4. Crea uno script .sql (anche direttamente su MySQL) contenente questi comandi:
     '''
-    CREATE DATABASE your_db_name;  
+    CREATE DATABASE your_db_name;
 
     CREATE USER 'your_mysql_user'@'%' IDENTIFIED BY 'your_mysql_password';  
     GRANT ALL PRIVILEGES ON your_db_name.* TO 'your_mysql_user'@'%';  
@@ -42,16 +42,16 @@ Python, Apache Airflow, MySQL
 
     USE your_db_name;  
 
-    CREATE TABLE dati_meteo(
-        id INT PRIMARY KEY AUTO_INCREMENT,
-        citta TEXT,
-        latitudine DOUBLE,
-        longitudine DOUBLE,
-        condizioni TEXT,
-        dettaglio_condizioni TEXT,
-        temperatura DOUBLE,
-        percepita DOUBLE,
-        data_ora DATETIME
+    CREATE TABLE dati_meteo(  
+        id INT PRIMARY KEY AUTO_INCREMENT,  
+        citta TEXT,  
+        latitudine DOUBLE,  
+        longitudine DOUBLE,  
+        condizioni TEXT,  
+        dettaglio_condizioni TEXT,  
+        temperatura DOUBLE,  
+        percepita DOUBLE,  
+        data_ora DATETIME  
     );  
     '''
     
